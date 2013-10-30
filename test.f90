@@ -5,7 +5,6 @@ program saxpy
     implicit none
 
     interface
-        !---------------------------------------------------------------------------
         subroutine test(n, s) &
             bind (c, name='test_ftn')
                 use, intrinsic :: iso_c_binding
