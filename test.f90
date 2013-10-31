@@ -1,7 +1,5 @@
 program saxpy
 
-    !use m_papi_wrap
-
     implicit none
 
     interface
